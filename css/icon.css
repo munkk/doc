@@ -1,0 +1,23 @@
+.icon, .search, .logo, .nav-trigger {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 17px 0 17px 17px;
+  outline: none;
+  border: 0 transparent;
+  cursor: pointer;
+  color: white; }
+
+.search {
+  background: url("../assets/icons/search.svg") 50% 50% no-repeat transparent;
+  height: 36px;
+  width: 56px; }
+
+.logo {
+  background: url("../assets/logo.png") 50% 50% no-repeat transparent;
+  height: 36px;
+  width: 56px; }
+
+.nav-trigger {
+  background: url("../assets/icons/hamburger.svg") 50% 50% no-repeat transparent;
+  height: 36px;
+  width: 56px; }

@@ -1,0 +1,32 @@
+#nav {
+  grid-area: nav;
+  color: #fff;
+  background: #2F80ED;
+  position: fixed;
+  height: 100vh;
+  padding-top: 70px;
+  width: 300px;
+  font-family: "Roboto Slab", serif;
+  box-sizing: border-box; }
+  #nav nav {
+    height: 100%;
+    overflow-y: auto;
+    overflow-x: hidden; }
+    #nav nav h3 {
+      font-size: 18px;
+      font-weight: bold;
+      margin-left: 20px; }
+    #nav nav ul {
+      margin-left: 20px; }
+      #nav nav ul li {
+        list-style: none;
+        font-size: 16px;
+        line-height: 33px; }
+        #nav nav ul li a {
+          color: #fff;
+          text-decoration: none;
+          opacity: 0.8; }
+          #nav nav ul li a:hover {
+            opacity: 1; }
+  #nav .nav-header {
+    display: none; }

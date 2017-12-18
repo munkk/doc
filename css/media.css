@@ -1,0 +1,21 @@
+@media screen and (max-width: 850px) {
+  .pages {
+    grid-template-areas: "header" "content" "footer";
+    grid-template-columns: 1fr; }
+    .pages #overlay {
+      display: block; }
+    .pages .nav-trigger {
+      display: inline-block; }
+  #nav {
+    padding-top: 0;
+    z-index: 12; }
+    #nav .nav-header {
+      display: block; } }
+
+@media screen and (min-width: 851px) {
+  .pages #nav {
+    display: block !important; }
+  .pages #overlay {
+    display: none !important; }
+  .pages .nav-trigger {
+    display: none; } }
